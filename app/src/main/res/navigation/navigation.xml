@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/landingPage_1">
+
+    <fragment
+        android:id="@+id/landingPage_1"
+        android:name="org.d3if2024.pecovid.ui.landing_page.LandingPage_1"
+        android:label="fragment_landing_page_1"
+        tools:layout="@layout/fragment_landing_page_1" >
+        <action
+            android:id="@+id/action_landingPage_1_to_landingPage_22"
+            app:destination="@id/landingPage_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/landingPage_2"
+        android:name="org.d3if2024.pecovid.ui.landing_page.LandingPage_2"
+        android:label="fragment_landing_page_2"
+        tools:layout="@layout/fragment_landing_page_2" >
+        <action
+            android:id="@+id/action_landingPage_2_to_landingPage_3"
+            app:destination="@id/landingPage_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/landingPage_3"
+        android:name="org.d3if2024.pecovid.ui.landing_page.LandingPage_3"
+        android:label="fragment_landing_page_3"
+        tools:layout="@layout/fragment_landing_page_3" >
+        <action
+            android:id="@+id/action_landingPage_3_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="org.d3if2024.pecovid.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.d3if2024.pecovid.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_variantsFragmentPage_1"
+            app:destination="@id/variantsFragmentPage_1" />
+    </fragment>
+    <fragment
+        android:id="@+id/variantsFragmentPage_1"
+        android:name="org.d3if2024.pecovid.ui.home.variations.VariantsFragmentPage_1"
+        android:label="fragment_variants_page_1"
+        tools:layout="@layout/fragment_variants_page_1" >
+        <action
+            android:id="@+id/action_variantsFragmentPage_1_to_variantsFragmentPage_2"
+            app:destination="@id/variantsFragmentPage_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/variantsFragmentPage_2"
+        android:name="org.d3if2024.pecovid.ui.home.variations.VariantsFragmentPage_2"
+        android:label="fragment_variants_page_2"
+        tools:layout="@layout/fragment_variants_page_2" />
+</navigation>

@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">PE COVID</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    MY STRINGS -->
+    <!-- Covid ProtectCovid    -->
+    <string name="title">ProtectCovid</string>
+    <!--    Page 3 Title-->
+    <string name="title_page3">We hope you enjoy and like this appand hope the information is useful and helpful</string>
+    <!--  Login Strings  -->
+    <string name="signup_or_login">Sign-up or Login</string>
+    <string name="label_input_username">Input Username</string>
+    <string name="label_input_password">Input Password</string>
+    <string name="text_forgot_password">Forgot Password?</string>
+    <string name="text_member">New member? Sign-up</string>
+    <string name="next">Next</string>
+    <!--    Home Strings -->
+    <string name="homepage">Corona Virus</string>
+    <string name="variations">Variations</string>
+    <string name="prevention">Prevention</string>
+    <string name="recovery">Recovery</string>
+    <string name="moreinfo">More Info</string>
+    <string name="btn_definition">Definition and History</string>
+
+<!--    Variations_Page1 Strings-->
+    <string name="title_covid">Variant Covid -19</string>
+    <string name="alpha">Variant Alpha</string>
+    <string name="beta">Variant Beta</string>
+    <string name="gamma">Variant Gamma</string>
+    <string name="delta">Variant Delta</string>
+    <string name="epsilon">Variant Epsilon</string>
+    <string name="zeta">Variant Zeta</string>
+    <string name="eta">Variant Eta</string>
+    <string name="theta">Variant Theta</string>
+    <string name="iota">Variant Iota</string>
+    <string name="kappa">Variant Kappa</string>
+
+
+
+
 </resources>
