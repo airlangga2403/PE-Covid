@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.PECOVID" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Theme.PECOVID" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -14,11 +14,14 @@
         <!-- Customize your theme here. -->
         <!-- Change Default Font Style        -->
         <item name="android:fontFamily">@font/inter_font</item>
+        <item name = "android:windowActionBar">false</item>
+        <item name = "android:windowNoTitle">true</item>
 
     </style>
 <!--    Change Small Component TextField-->
     <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
         <item name="cornerSize">400dp</item>
     </style>
+
 
 </resources>

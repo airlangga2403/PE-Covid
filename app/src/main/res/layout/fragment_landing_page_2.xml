@@ -11,11 +11,11 @@
 
     <TextView
         android:id="@+id/title_welcome_to"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="254dp"
+        android:layout_height="87dp"
         android:layout_marginTop="144dp"
         android:text="Welcome to"
-        android:textSize="35sp"
+        android:textSize="45sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -24,14 +24,14 @@
 
     <TextView
         android:id="@+id/title_pe_covid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="174dp"
+        android:layout_height="59dp"
         android:layout_marginTop="8dp"
         android:text="PE-Covid"
-        android:textSize="28sp"
+        android:textSize="35sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_welcome_to" />
 

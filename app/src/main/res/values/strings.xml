@@ -22,7 +22,7 @@
     <string name="moreinfo">More Info</string>
     <string name="btn_definition">Definition and History</string>
 
-<!--    Variations_Page1 Strings-->
+    <!--    Variations_Page1 Strings-->
     <string name="title_covid">Variant Covid -19</string>
     <string name="alpha">Variant Alpha</string>
     <string name="beta">Variant Beta</string>
@@ -34,8 +34,6 @@
     <string name="theta">Variant Theta</string>
     <string name="iota">Variant Iota</string>
     <string name="kappa">Variant Kappa</string>
-
-
 
 
 </resources>

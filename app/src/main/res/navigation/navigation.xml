@@ -8,16 +8,16 @@
     <fragment
         android:id="@+id/landingPage_1"
         android:name="org.d3if2024.pecovid.ui.landing_page.LandingPage_1"
-        android:label="fragment_landing_page_1"
+        android:label="Landing Page"
         tools:layout="@layout/fragment_landing_page_1" >
         <action
-            android:id="@+id/action_landingPage_1_to_landingPage_22"
+            android:id="@+id/action_landingPage_1_to_landingPage_2"
             app:destination="@id/landingPage_2" />
     </fragment>
     <fragment
         android:id="@+id/landingPage_2"
         android:name="org.d3if2024.pecovid.ui.landing_page.LandingPage_2"
-        android:label="fragment_landing_page_2"
+        android:label="Landing Page"
         tools:layout="@layout/fragment_landing_page_2" >
         <action
             android:id="@+id/action_landingPage_2_to_landingPage_3"
@@ -26,7 +26,7 @@
     <fragment
         android:id="@+id/landingPage_3"
         android:name="org.d3if2024.pecovid.ui.landing_page.LandingPage_3"
-        android:label="fragment_landing_page_3"
+        android:label="Landing Page"
         tools:layout="@layout/fragment_landing_page_3" >
         <action
             android:id="@+id/action_landingPage_3_to_loginFragment"
@@ -35,7 +35,7 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="org.d3if2024.pecovid.ui.login.LoginFragment"
-        android:label="fragment_login"
+        android:label="Login"
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_loginFragment_to_homeFragment"
