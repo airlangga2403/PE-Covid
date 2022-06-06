@@ -3,9 +3,5 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="900"
-        android:font="@font/inter" />
-<!--    <font-->
-<!--        android:fontStyle="italic"-->
-<!--        android:fontWeight="400"-->
-<!--        android:font="@font/inter" />-->
+        android:font="@font/interblack" />
 </font-family>

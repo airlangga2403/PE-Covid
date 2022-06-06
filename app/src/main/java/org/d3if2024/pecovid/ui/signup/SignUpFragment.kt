@@ -1,22 +1,21 @@
-package org.d3if2024.pecovid.ui.login
-import android.app.Activity
+package org.d3if2024.pecovid.ui.signup
+
 import android.os.Bundle
-import android.util.Log
 import android.util.Patterns
+import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.firebase.auth.FirebaseAuth
 import org.d3if2024.pecovid.R
-import org.d3if2024.pecovid.databinding.FragmentLoginBinding
+import org.d3if2024.pecovid.databinding.FragmentSignUpBinding
 
 
-class LoginFragment : Fragment() {
+class SignUpFragment : Fragment() {
     // TODO: Rename and change types of parameters
-    private lateinit var binding: FragmentLoginBinding
+    private lateinit var binding: FragmentSignUpBinding
     private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,34 +23,28 @@ class LoginFragment : Fragment() {
     }
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
+        inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentLoginBinding.inflate(layoutInflater, container, false)
+        // Inflate the layout for this fragment
+        binding = FragmentSignUpBinding.inflate(layoutInflater, container , false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         auth = FirebaseAuth.getInstance()
-//        Log.d("Display Name", FirebaseAuth.getInstance().currentUser?.displayName.toString())
-        binding.nextBtn.setOnClickListener {
-            login()
-        }
         binding.textNewMember.setOnClickListener {
-            findNavController().navigate(R.id.action_loginActivity_to_signUpFragment)
+            findNavController().navigate(R.id.action_signUpFragment_to_loginActivity)
         }
-
-        binding.textForgotPassword.setOnClickListener {
-            findNavController().navigate(R.id.action_loginActivity_to_resetPassword)
+        binding.nextBtn.setOnClickListener {
+            signUpUser()
         }
     }
 
-    private fun login() {
+    private fun signUpUser(){
         val email = binding.inputUsername.text.toString()
         val password = binding.inputPassword.text.toString()
-
 
         if (email.isEmpty()) {
             binding.inputUsername.error = "Email Harus Di Isi"
@@ -72,21 +65,18 @@ class LoginFragment : Fragment() {
             binding.inputPassword.error = "Password Minimum 6 Character"
             binding.inputPassword.requestFocus()
         }
-        loginApi(email, password)
+        signUpApi(email, password)
     }
-
-    private fun loginApi(email: String, password: String) {
-        auth.signInWithEmailAndPassword(email, password)
+    private fun signUpApi(email: String, password: String){
+        auth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener(requireActivity()) {
-                task ->
+                    task ->
                 if (task.isSuccessful) {
-                    Toast.makeText(requireActivity(), "Selamat Datang $email", Toast.LENGTH_SHORT).show()
-                    findNavController().navigate(R.id.action_loginActivity_to_homeFragment)
+                    Toast.makeText(requireActivity(), "Registrasi Berhasil $email", Toast.LENGTH_SHORT).show()
+                    findNavController().navigate(R.id.action_signUpFragment_to_loginActivity)
                 } else {
                     Toast.makeText(requireActivity(), "${task.exception?.message}", Toast.LENGTH_SHORT).show()
                 }
             }
     }
-
 }
-

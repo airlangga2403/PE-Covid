@@ -11,16 +11,6 @@ import org.d3if2024.pecovid.R
 import org.d3if2024.pecovid.databinding.FragmentHomeBinding
 import org.d3if2024.pecovid.databinding.FragmentLandingPage1Binding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [LandingPage_1.newInstance] factory method to
- * create an instance of this fragment.
- */
 class LandingPage_1 : Fragment() {
     private lateinit var binding: FragmentLandingPage1Binding
 

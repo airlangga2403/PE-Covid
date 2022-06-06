@@ -8,6 +8,7 @@
     <!--    Page 3 Title-->
     <string name="title_page3">We hope you enjoy and like this appand hope the information is useful and helpful</string>
     <!--  Login Strings  -->
+    <string name="login">Login</string>
     <string name="signup_or_login">Sign-up or Login</string>
     <string name="label_input_username">Input Username</string>
     <string name="label_input_password">Input Password</string>
@@ -35,5 +36,12 @@
     <string name="iota">Variant Iota</string>
     <string name="kappa">Variant Kappa</string>
 
+    <!--    Settings Strings -->
+    <string name="settings">Settings</string>
+    <string name="Dark_Mode">Dark Mode</string>
+
+    <!--    SignUp String -->
+    <string name="signup">Sign-Up</string>
+    <string name="have_account">Already Have Account? Login</string>
 
 </resources>

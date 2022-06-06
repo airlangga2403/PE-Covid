@@ -11,25 +11,28 @@
 
     <TextView
         android:id="@+id/title_welcome_to"
-        android:layout_width="254dp"
-        android:layout_height="87dp"
-        android:layout_marginTop="144dp"
+        android:layout_width="325dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/interblack"
         android:text="Welcome to"
+        android:textAlignment="center"
         android:textSize="45sp"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/title_pe_covid"
-        android:layout_width="174dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="217dp"
+        android:layout_height="77dp"
+        android:fontFamily="@font/interblack"
         android:text="PE-Covid"
-        android:textSize="35sp"
-        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,13 +40,27 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="122dp"
-        android:layout_height="132dp"
-        android:layout_marginTop="160dp"
+        android:layout_width="256dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_logo_pecovid"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_pe_covid"
-        tools:src="@drawable/ic_logo_pecovid" />
+        app:layout_constraintTop_toBottomOf="@+id/title_pe_covid" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/next_btn"
+        android:layout_width="182dp"
+        android:layout_height="62dp"
+        android:textSize="18sp"
+        android:backgroundTint="@color/button_color"
+        android:textStyle="italic"
+        android:fontFamily="@font/inter_font"
+        android:layout_marginTop="29dp"
+        android:text="@string/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

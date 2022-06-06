@@ -2,11 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout4"
+    android:id="@+id/frameLayout8"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_apps"
-    tools:context=".ui.login.LoginFragment">
+    tools:context=".ui.signup.SignUpFragment">
 
     <TextView
         android:id="@+id/title_login"
@@ -29,9 +29,9 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
         android:contentDescription="title"
+        android:src="@drawable/ic_logo_pecovid"
         app:layout_constraintStart_toEndOf="@+id/title_login"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/ic_logo_pecovid" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/signup"
@@ -39,11 +39,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:fontFamily="@font/inter_font"
-        android:text="@string/signup_or_login"
+        android:text="@string/signup"
         android:textSize="31sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_login" />
 
@@ -66,9 +66,9 @@
             android:layout_width="390dp"
             android:layout_height="51dp"
             android:layout_marginStart="16dp"
-            android:backgroundTint="@color/button_login_color"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/button_login_color"
             android:inputType="textEmailAddress"
             android:textStyle="bold|italic"
             app:layout_constraintEnd_toEndOf="parent"
@@ -97,8 +97,8 @@
             android:layout_height="51dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="50dp"
-            android:backgroundTint="@color/button_login_color"
             android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/button_login_color"
             android:inputType="textPassword"
             android:textStyle="bold|italic"
             android:visibility="visible"
@@ -109,28 +109,17 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/text_forgot_password"
-        android:layout_width="183dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="32dp"
-        android:text="@string/text_forgot_password"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textfield_password" />
-
-    <TextView
         android:id="@+id/text_new_member"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/text_member"
+        android:layout_marginTop="60dp"
+        android:text="@string/have_account"
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_forgot_password" />
+        app:layout_constraintTop_toBottomOf="@+id/textfield_password" />
 
     <Button
         android:id="@+id/next_btn"
@@ -139,13 +128,12 @@
         android:layout_marginTop="24dp"
         android:backgroundTint="@color/button_color"
         android:fontFamily="@font/inter_font"
-        android:text="@string/login"
+        android:text="@string/signup"
         android:textSize="18sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_new_member" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
