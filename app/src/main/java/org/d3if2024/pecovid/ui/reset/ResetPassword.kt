@@ -33,6 +33,9 @@ class ResetPassword : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         auth = FirebaseAuth.getInstance()
+        binding.textNewMember.setOnClickListener {
+            findNavController().navigate(R.id.action_resetPassword_to_loginActivity)
+        }
         binding.nextBtn.setOnClickListener {
             sendResetPassword()
         }
@@ -46,11 +49,13 @@ class ResetPassword : Fragment() {
             binding.inputUsername.requestFocus()
         }
 
-        if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+        else if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
             binding.inputUsername.error = "Email Invalid"
             binding.inputUsername.requestFocus()
+        } else {
+            reset(email)
         }
-        reset(email)
+
     }
 
     private fun reset(email: String) {

@@ -27,7 +27,7 @@ class SignUpFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        binding = FragmentSignUpBinding.inflate(layoutInflater, container , false)
+        binding = FragmentSignUpBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 
@@ -42,40 +42,43 @@ class SignUpFragment : Fragment() {
         }
     }
 
-    private fun signUpUser(){
+    private fun signUpUser() {
         val email = binding.inputUsername.text.toString()
         val password = binding.inputPassword.text.toString()
 
         if (email.isEmpty()) {
             binding.inputUsername.error = "Email Harus Di Isi"
             binding.inputUsername.requestFocus()
-        }
-
-        if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+        } else if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
             binding.inputUsername.error = "Email Invalid"
             binding.inputUsername.requestFocus()
-        }
-
-        if (password.isEmpty()) {
+        } else if (password.isEmpty()) {
             binding.inputPassword.error = "Password Harus Di Isi"
             binding.inputPassword.requestFocus()
-        }
-
-        if (password.length < 6) {
+        } else if (password.length < 6) {
             binding.inputPassword.error = "Password Minimum 6 Character"
             binding.inputPassword.requestFocus()
+        } else {
+            signUpApi(email, password)
         }
-        signUpApi(email, password)
     }
-    private fun signUpApi(email: String, password: String){
+
+    private fun signUpApi(email: String, password: String) {
         auth.createUserWithEmailAndPassword(email, password)
-            .addOnCompleteListener(requireActivity()) {
-                    task ->
+            .addOnCompleteListener(requireActivity()) { task ->
                 if (task.isSuccessful) {
-                    Toast.makeText(requireActivity(), "Registrasi Berhasil $email", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        requireActivity(),
+                        "Registrasi Berhasil $email",
+                        Toast.LENGTH_SHORT
+                    ).show()
                     findNavController().navigate(R.id.action_signUpFragment_to_loginActivity)
                 } else {
-                    Toast.makeText(requireActivity(), "${task.exception?.message}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        requireActivity(),
+                        "${task.exception?.message}",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
             }
     }

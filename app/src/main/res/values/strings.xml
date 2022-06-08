@@ -44,7 +44,7 @@
     <string name="signup">Sign-Up</string>
     <string name="have_account">Already Have Account? Login</string>
 
-<!--    Penjelasan Variations -->
+    <!--    Penjelasan Variations -->
     <string name="title1">Covid Variant Alpha</string>
     <string name="penjelasa_covid1">Virus ini adalah varian yang awalnya terdeteksi di Inggris. Alpha memiliki nama lain, seperti varian Kent atau virus B117. Disebutkan jika virus ini setidaknya lebih mudah menular daripada jenis yang pertama kali terdeteksi di China. Pada Oktober silam, strain ini hanya terjadi pada 3 persen dari total kasus di Inggris, tetapi mencapai awal Februari, tercatat sebanyak 96 persen dari jumlah seluruhnya sehingga menimbulkan gelombang ketiga.
 
@@ -124,7 +124,7 @@ Hal ini karena belum adanya data atau penelitian yang dapat memastikan tingkat p
 
 Meski demikian, hal ini bukan berarti COVID-19 varian Kappa akan terus dikategorikan sebagai variant of interest. COVID-19 varian Kappa bisa saja diklasifikasikan sebagai variant of concern di kemudian hari jika terbukti lebih berbahaya dibandingkan varian COVID-19 lainnya.</string>
 
-<!--    Prevention Strings  -->
+    <!--    Prevention Strings  -->
     <string name="title_preventions1">Mencuci tangan dengan benar</string>
     <string name="penjelasan_preventions1">Mencuci tangan dengan benar adalah cara paling sederhana namun efektif untuk mencegah penyebaran virus 2019-nCoV. Cucilah tangan dengan air mengalir dan sabun, setidaknya selama 20 detik. Pastikan seluruh bagian tangan tercuci hingga bersih, termasuk punggung tangan, pergelangan tangan, sela-sela jari, dan kuku. Setelah itu, keringkan tangan menggunakan tisu, handuk bersih, atau mesin pengering tangan.
 
@@ -171,5 +171,20 @@ Selain itu, isolasi mandiri juga dianjurkan untuk dilakukan oleh orang yang beri
 Oleh karena itu, rumah harus rutin dibersihkan dan dilakukan disinfeksi secara menyeluruh, termasuk perabotan dan peralatan rumah yang sering disentuh, seperti gagang pintu, remote televisi, kran air, dan permukaan meja.
 
 Saat membersihkan atau melakukan disinfeksi, Anda perlu menggunakan sarung tangan dan masker, serta mencuci tangan dengan air bersih dan sabun setelah selesai membersihkan rumah. Hal ini dilakukan untuk mencegah penularan virus Corona yang mungkin saja terjadi.</string>
+
+    <!--   String Recovery <-->
+    <string name="title_recovery1">Pasien Gejala Ringan</string>
+    <string name="penjelasan_recovery1">Pada pasien bergejala ringan atau tanpa gejala, dokter akan menyarankan untuk isolasi mandiri di rumah, sambil tetap melakukan langkah-langkah pencegahan penyebaran infeksi virus Corona. Beberapa tindakan yang dapat dilakukan oleh dokter adalah:</string>
+    <string name="penjelasan_recovery_detail1">•	Merujuk pasien dengan gejala berat untuk menjalani perawatan dan karantina di rumah sakit rujukan
+\n\n•	Meresepkan obat pereda demam dan nyeri yang aman dan sesuai dengan kondisi pasien
+\n\n•	Menganjurkan pasien untuk melakukan isolasi mandiri dan istirahat yang cukup
+\n\n•	Menganjurkan pasien untuk banyak minum air putih untuk menjaga kadar cairan tubuh</string>
+
+    <string name="title_recovery2">Pasien Gejala Berat</string>
+    <string name="penjelasan_recovery2">pada pasien dengan gejala berat, dokter akan memberikan rujukan untuk menjalani karantina di rumah sakit rujukan. Metode perawatan yang dapat diberikan antara lain:</string>
+    <string name="penjelasan_recovery_detail2">
+\n\n•	Pemberian infus cairan agar tetap terhidrasi
+\n\n•	Pemasangan ventilator atau alat bantu napas
+\n\n•	Pemberian obat, seperti pengencer darah, antiperadangan, antiinterleukin-6 (IL-6), remdesivir, atau favipiravir</string>
 
 </resources>

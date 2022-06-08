@@ -14,6 +14,7 @@ import androidx.navigation.fragment.findNavController
 import org.d3if2024.pecovid.R
 import org.d3if2024.pecovid.databinding.FragmentHomeBinding
 import org.d3if2024.pecovid.ui.home.preventions.PreventionsActivity
+import org.d3if2024.pecovid.ui.home.recovery.RecoveryActivity
 import org.d3if2024.pecovid.ui.home.variations.VariationsActivity
 
 
@@ -37,6 +38,10 @@ class HomeFragment : Fragment() {
         }
         binding.preventionBtn.setOnClickListener {
             listIntent = Intent(requireActivity(), PreventionsActivity::class.java)
+            startActivity(listIntent)
+        }
+        binding.recoveryBtn.setOnClickListener {
+            listIntent = Intent(requireActivity(), RecoveryActivity::class.java)
             startActivity(listIntent)
         }
         binding.bottomNavigationView.setOnItemReselectedListener {
