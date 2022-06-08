@@ -20,6 +20,11 @@ import org.d3if2024.pecovid.ui.home.variations.VariationsActivity
 
 
 class HomeFragment : Fragment() {
+
+    companion object {
+        fun newInstance() = HomeFragment()
+    }
+
     private lateinit var binding: FragmentHomeBinding
     private lateinit var listIntent: Intent
 
