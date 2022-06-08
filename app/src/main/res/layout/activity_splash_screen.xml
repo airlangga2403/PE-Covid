@@ -12,24 +12,27 @@
         android:id="@+id/SplashScreenImage"
         android:layout_width="300dp"
         android:layout_height="200dp"
+        android:layout_marginTop="10dp"
         android:src="@drawable/ic_logo_pecovid"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/title_login"
+        app:layout_constraintVertical_bias="0.049" />
 
     <TextView
         android:id="@+id/title_login"
         android:layout_width="match_parent"
         android:layout_height="52dp"
-        android:layout_marginTop="204dp"
+        android:layout_marginTop="188dp"
         android:fontFamily="@font/inika_font"
         android:text="@string/title"
         android:textAlignment="center"
         android:textSize="32sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

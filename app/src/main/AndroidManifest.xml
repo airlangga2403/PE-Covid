@@ -16,6 +16,7 @@
         <activity android:name=".ui.home.recovery.RecoveryActivity"/>
         <activity android:name=".ui.home.moreinfo.MoreinfoActivity"/>
 
+
         <activity
             android:name=".splashscreen.SplashScreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"

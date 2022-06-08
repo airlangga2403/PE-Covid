@@ -12,12 +12,14 @@ import androidx.navigation.fragment.findNavController
 import com.google.firebase.auth.FirebaseAuth
 import org.d3if2024.pecovid.R
 import org.d3if2024.pecovid.databinding.FragmentLoginBinding
+import org.d3if2024.pecovid.helper.SharedPreference
 
 
 class LoginFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private lateinit var binding: FragmentLoginBinding
     private lateinit var auth: FirebaseAuth
+    lateinit var sp:SharedPreference
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -31,7 +33,7 @@ class LoginFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         auth = FirebaseAuth.getInstance()
-
+        sp = SharedPreference(requireActivity())
         binding.nextBtn.setOnClickListener {
             login()
 //            findNavController().navigate(R.id.action_loginActivity_to_homeFragment)
@@ -75,6 +77,7 @@ class LoginFragment : Fragment() {
                     Toast.makeText(requireActivity(), "Selamat Datang $email ", Toast.LENGTH_SHORT)
                         .show()
                     findNavController().navigate(R.id.action_loginActivity_to_homeFragment)
+                    sp.setStatusSignin(true)
                 } else {
                     Toast.makeText(
                         requireActivity(),

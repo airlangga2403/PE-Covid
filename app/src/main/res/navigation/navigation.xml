@@ -57,7 +57,10 @@
             app:destination="@id/userCenterFragment" />
         <action
             android:id="@+id/action_settingsFragment_to_loginActivity"
-            app:destination="@id/loginActivity" />
+            app:destination="@id/loginActivity"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/homeFragment"
+            app:popUpToInclusive="true"/>
     </fragment>
     <fragment
         android:id="@+id/userCenterFragment"
