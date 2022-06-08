@@ -9,18 +9,53 @@ import org.d3if2024.pecovid.ui.home.recovery.RecoveryActivity
 
 class MoreinfoActivity : AppCompatActivity() {
     private lateinit var binding: MoreinfoActivityBinding
-    private lateinit var listIntent: Intent
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = MoreinfoActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.imgVascularIndonesia.setOnClickListener{
-            val webIntent: Intent = Uri.parse("https://www.android.com").let { webpage ->
-                Intent(Intent.ACTION_VIEW, webpage)
-            }
-            startActivity(webIntent)
-
+            webIntent("https://www.vascularindonesia.com/#home")
         }
+        binding.imgSehatqIndonesia.setOnClickListener{
+            webIntent("https://www.sehatq.com/")
+        }
+        binding.imgMilvikDokterIndonesia.setOnClickListener {
+            webIntent("https://milvik.id/")
+        }
+        binding.imgProSehat.setOnClickListener {
+            webIntent("https://www.prosehat.com/")
+        }
+        binding.imgYesdok.setOnClickListener {
+            webIntent("https://www.yesdok.com/")
+        }
+        binding.imgLinksehat.setOnClickListener {
+            webIntent("https://linksehat.com/")
+        }
+        binding.imgGoodDoctor.setOnClickListener {
+            webIntent("https://www.gooddoctor.co.id/")
+        }
+        binding.imgGetWell.setOnClickListener {
+            webIntent("https://getwell.co.id/")
+        }
+        binding.imgHaloDoctor.setOnClickListener {
+            webIntent("https://www.halodoc.com/")
+        }
+        binding.imgAlodok.setOnClickListener {
+            webIntent("https://www.alodokter.com/")
+        }
+        binding.imgAidohelth.setOnClickListener {
+            webIntent("https://aido.id/")
+        }
+        binding.imgKliklikdokter.setOnClickListener {
+            webIntent("https://www.klikdokter.com/")
+        }
+    }
+
+    private fun webIntent(uri: String){
+        val webIntent: Intent = Uri.parse(uri).let { webpage ->
+            Intent(Intent.ACTION_VIEW, webpage)
+        }
+        startActivity(webIntent)
     }
 }

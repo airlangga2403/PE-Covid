@@ -12,9 +12,7 @@ import org.d3if2024.pecovid.databinding.FragmentUserCenterBinding
 
 
 class UserCenterFragment : Fragment() {
-    // TODO: Rename and change types of parameters
     private lateinit var binding: FragmentUserCenterBinding
-    private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +30,6 @@ class UserCenterFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-//        print("Email" + LoginFragment().getUserEmail())
         binding.bottomNavigationView.setOnItemReselectedListener {
             when (it.itemId) {
                 R.id.bottom_navbar_settings -> {
