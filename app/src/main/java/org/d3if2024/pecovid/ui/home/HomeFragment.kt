@@ -2,6 +2,7 @@ package org.d3if2024.pecovid.ui.home
 
 import android.content.Intent
 import android.os.Bundle
+import android.provider.Settings
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.MenuItem
@@ -17,13 +18,12 @@ import org.d3if2024.pecovid.ui.home.moreinfo.MoreinfoActivity
 import org.d3if2024.pecovid.ui.home.preventions.PreventionsActivity
 import org.d3if2024.pecovid.ui.home.recovery.RecoveryActivity
 import org.d3if2024.pecovid.ui.home.variations.VariationsActivity
+import org.d3if2024.pecovid.ui.settings.SettingsFragment
+import org.d3if2024.pecovid.ui.usercenter.UserCenterFragment
 
 
 class HomeFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = HomeFragment()
-    }
 
     private lateinit var binding: FragmentHomeBinding
     private lateinit var listIntent: Intent
@@ -36,6 +36,7 @@ class HomeFragment : Fragment() {
         binding = FragmentHomeBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.variationsBtn.setOnClickListener {
@@ -54,16 +55,20 @@ class HomeFragment : Fragment() {
             listIntent = Intent(requireActivity(), MoreinfoActivity::class.java)
             startActivity(listIntent)
         }
-        binding.bottomNavigationView.setOnItemReselectedListener {
+        binding.bottomNavigationView.setOnItemReselectedListener setOnNavigationItemReselectedListener@{
             when (it.itemId) {
                 R.id.bottom_navbar_settings -> {
                     findNavController().navigate(R.id.action_homeFragment_to_settingsFragment)
+                    return@setOnNavigationItemReselectedListener
                 }
                 R.id.bottom_navbar_usercenter -> {
                     findNavController().navigate(R.id.action_homeFragment_to_userCenterFragment)
+                    return@setOnNavigationItemReselectedListener
                 }
             }
         }
+
+
     }
 
 

@@ -1,15 +1,15 @@
 package org.d3if2024.pecovid.ui.usercenter
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.firebase.auth.FirebaseAuth
 import org.d3if2024.pecovid.R
 import org.d3if2024.pecovid.databinding.FragmentUserCenterBinding
-import org.d3if2024.pecovid.ui.login.LoginFragment
+
 
 class UserCenterFragment : Fragment() {
     // TODO: Rename and change types of parameters
@@ -33,8 +33,6 @@ class UserCenterFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 //        print("Email" + LoginFragment().getUserEmail())
-        val email = "depanbelakang944@gmail.com"
-        binding.emailAddressTxt.setText(email)
         binding.bottomNavigationView.setOnItemReselectedListener {
             when (it.itemId) {
                 R.id.bottom_navbar_settings -> {
@@ -45,6 +43,13 @@ class UserCenterFragment : Fragment() {
                 }
             }
         }
+        val user = FirebaseAuth.getInstance().currentUser
+        if (user != null) {
+            val userEmail = user.email
+            val email = userEmail.toString()
+            binding.emailAddressTxt.setText(email)
+        }
+
     }
 
 }
