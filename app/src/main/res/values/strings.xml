@@ -182,9 +182,10 @@ Saat membersihkan atau melakukan disinfeksi, Anda perlu menggunakan sarung tanga
 
     <string name="title_recovery2">Pasien Gejala Berat</string>
     <string name="penjelasan_recovery2">pada pasien dengan gejala berat, dokter akan memberikan rujukan untuk menjalani karantina di rumah sakit rujukan. Metode perawatan yang dapat diberikan antara lain:</string>
-    <string name="penjelasan_recovery_detail2">
-\n\n•	Pemberian infus cairan agar tetap terhidrasi
+    <string name="penjelasan_recovery_detail2">•	Pemberian infus cairan agar tetap terhidrasi
 \n\n•	Pemasangan ventilator atau alat bantu napas
 \n\n•	Pemberian obat, seperti pengencer darah, antiperadangan, antiinterleukin-6 (IL-6), remdesivir, atau favipiravir</string>
-
+<!--    Strings email_address-->
+    <string name="email_address"><u>Email Address</u></string>
+    <string name="email_address_user"><u>Email Address</u></string>
 </resources>

@@ -5,8 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.navigation.fragment.findNavController
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import org.d3if2024.pecovid.R
 import org.d3if2024.pecovid.databinding.FragmentSettingsBinding
 
@@ -14,7 +18,7 @@ import org.d3if2024.pecovid.databinding.FragmentSettingsBinding
 class SettingsFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private lateinit var binding: FragmentSettingsBinding
-
+    private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -36,6 +40,12 @@ class SettingsFragment : Fragment() {
             } else {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             }
+        }
+        binding.buttonLogout.setOnClickListener {
+            Firebase.auth.signOut()
+            findNavController().navigate(R.id.action_settingsFragment_to_loginActivity)
+            Toast.makeText(requireActivity(), "Akun Berhasil Log Out", Toast.LENGTH_SHORT)
+                .show()
         }
         binding.bottomNavigationView.setOnItemReselectedListener {
             when (it.itemId) {

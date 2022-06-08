@@ -55,6 +55,9 @@
         <action
             android:id="@+id/action_settingsFragment_to_userCenterFragment"
             app:destination="@id/userCenterFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
     </fragment>
     <fragment
         android:id="@+id/userCenterFragment"
