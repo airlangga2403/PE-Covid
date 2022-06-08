@@ -10,11 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PECOVID">
 
-        <activity android:name=".ui.login.LoginFragment">
-<!--            <meta-data-->
-<!--                android:name="android.support.PARENT_ACTIVITY"-->
-<!--                />-->
-        </activity>
+
+        <activity android:name=".ui.home.variations.VariationsActivity"/>
+        <activity android:name=".ui.home.preventions.PreventionsActivity"/>
 
         <activity
             android:name=".MainActivity"

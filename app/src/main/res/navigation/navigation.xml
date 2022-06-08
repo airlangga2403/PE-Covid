@@ -9,7 +9,7 @@
         android:id="@+id/landingPage_1"
         android:name="org.d3if2024.pecovid.ui.landing_page.LandingPage_1"
         android:label="Landing Page"
-        tools:layout="@layout/fragment_landing_page_1" >
+        tools:layout="@layout/fragment_landing_page_1">
         <action
             android:id="@+id/action_landingPage_1_to_landingPage_2"
             app:destination="@id/landingPage_2" />
@@ -18,7 +18,7 @@
         android:id="@+id/landingPage_2"
         android:name="org.d3if2024.pecovid.ui.landing_page.LandingPage_2"
         android:label="Landing Page"
-        tools:layout="@layout/fragment_landing_page_2" >
+        tools:layout="@layout/fragment_landing_page_2">
         <action
             android:id="@+id/action_landingPage_2_to_landingPage_3"
             app:destination="@id/landingPage_3" />
@@ -27,7 +27,7 @@
         android:id="@+id/landingPage_3"
         android:name="org.d3if2024.pecovid.ui.landing_page.LandingPage_3"
         android:label="Landing Page"
-        tools:layout="@layout/fragment_landing_page_3" >
+        tools:layout="@layout/fragment_landing_page_3">
         <action
             android:id="@+id/action_landingPage_3_to_loginActivity"
             app:destination="@id/loginActivity" />
@@ -36,10 +36,7 @@
         android:id="@+id/homeFragment"
         android:name="org.d3if2024.pecovid.ui.home.HomeFragment"
         android:label="Home"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_homeFragment_to_variantsFragmentPage_1"
-            app:destination="@id/variantsFragmentPage_1" />
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_userCenterFragment"
             app:destination="@id/userCenterFragment" />
@@ -48,24 +45,10 @@
             app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
-        android:id="@+id/variantsFragmentPage_1"
-        android:name="org.d3if2024.pecovid.ui.home.variations.VariantsFragmentPage_1"
-        android:label="fragment_variants_page_1"
-        tools:layout="@layout/fragment_variants_page_1" >
-        <action
-            android:id="@+id/action_variantsFragmentPage_1_to_variantsFragmentPage_2"
-            app:destination="@id/variantsFragmentPage_2" />
-    </fragment>
-    <fragment
-        android:id="@+id/variantsFragmentPage_2"
-        android:name="org.d3if2024.pecovid.ui.home.variations.VariantsFragmentPage_2"
-        android:label="fragment_variants_page_2"
-        tools:layout="@layout/fragment_variants_page_2" />
-    <fragment
         android:id="@+id/settingsFragment"
         android:name="org.d3if2024.pecovid.ui.settings.SettingsFragment"
         android:label="Settings"
-        tools:layout="@layout/fragment_settings" >
+        tools:layout="@layout/fragment_settings">
         <action
             android:id="@+id/action_settingsFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
@@ -77,7 +60,7 @@
         android:id="@+id/userCenterFragment"
         android:name="org.d3if2024.pecovid.ui.usercenter.UserCenterFragment"
         android:label="User Center"
-        tools:layout="@layout/fragment_user_center" >
+        tools:layout="@layout/fragment_user_center">
         <action
             android:id="@+id/action_userCenterFragment_to_settingsFragment"
             app:destination="@id/settingsFragment" />
@@ -89,10 +72,13 @@
         android:id="@+id/loginActivity"
         android:name="org.d3if2024.pecovid.ui.login.LoginFragment"
         android:label="Login"
-        tools:layout="@layout/fragment_login" >
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginActivity_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/landingPage_3"
+            app:popUpToInclusive="true"/>
         <action
             android:id="@+id/action_loginActivity_to_signUpFragment"
             app:destination="@id/signUpFragment" />
@@ -104,7 +90,7 @@
         android:id="@+id/signUpFragment"
         android:name="org.d3if2024.pecovid.ui.signup.SignUpFragment"
         android:label="Sign-Up"
-        tools:layout="@layout/fragment_sign_up" >
+        tools:layout="@layout/fragment_sign_up">
         <action
             android:id="@+id/action_signUpFragment_to_loginActivity"
             app:destination="@id/loginActivity" />
@@ -113,7 +99,7 @@
         android:id="@+id/resetPassword"
         android:name="org.d3if2024.pecovid.ui.reset.ResetPassword"
         android:label="fragment_reset_password"
-        tools:layout="@layout/fragment_reset_password" >
+        tools:layout="@layout/fragment_reset_password">
         <action
             android:id="@+id/action_resetPassword_to_loginActivity"
             app:destination="@id/loginActivity" />

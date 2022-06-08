@@ -44,4 +44,132 @@
     <string name="signup">Sign-Up</string>
     <string name="have_account">Already Have Account? Login</string>
 
+<!--    Penjelasan Variations -->
+    <string name="title1">Covid Variant Alpha</string>
+    <string name="penjelasa_covid1">Virus ini adalah varian yang awalnya terdeteksi di Inggris. Alpha memiliki nama lain, seperti varian Kent atau virus B117. Disebutkan jika virus ini setidaknya lebih mudah menular daripada jenis yang pertama kali terdeteksi di China. Pada Oktober silam, strain ini hanya terjadi pada 3 persen dari total kasus di Inggris, tetapi mencapai awal Februari, tercatat sebanyak 96 persen dari jumlah seluruhnya sehingga menimbulkan gelombang ketiga.
+
+Selain itu, data juga menunjukkan jika virus COVID-19 ini sekitar 30–70 persen lebih mematikan dibandingkan yang lainnya. Meski begitu, suatu penelitian menunjukkan jika vaksin AstraZeneca memiliki tingkat efektivitas sebesar 70,4 persen melawan gejala COVID-19 dari varian baru ini. Untuk Pfizer, angkanya mencapai 89,5 persen yang terjadi paling tidak 14 hari setelah penerimaan dosis kedua.</string>
+    <string name="title2">Covid Variant Beta</string>
+    <string name="penjelasan_covid2">Strain beta ini pertama kali terdeteksi di Afrika Selatan pada awal Oktober dan telah ditemukan di lebih dari 80 negara. Virus ini membawa mutasi yang disebut dengan E484K, yang dapat membantu penyakit ini menghindari sistem kekebalan. Jenis virus yang disebut juga dengan B1351 ini, disebut-sebut tidak bekerja dengan baik pada seseorang yang mendapatkan vaksin AstraZeneca, karena hanya memberikan perlindungan 10 persen terhadap gejala ringan hingga sedang.</string>
+
+    <string name="title3">Covid Variant Gamma</string>
+    <string name="penjelasan_covid3">Varian Gamma (P.1) adalah salah satu varian dari SARS-CoV-2, virus penyebab COVID-19. Varian SARS-CoV-2 ini diberi nama garis keturunan P.1 dan memiliki 17 substitusi asam amino, sepuluh di antaranya dalam protein lonjakannya, termasuk tiga yang ditunjuk untuk menjadi perhatian khusus: N501Y, E484K dan K417T. Varian SARS-CoV-2 ini pertama kali terdeteksi oleh National Institute of Infectious Diseases (NIID) Jepang, pada 6 Januari 2021 pada empat orang yang tiba di Tokyo setelah mengunjungi Amazonas, Brasil, empat hari sebelumnya. Kemudian dinyatakan beredar di Brasil. Di bawah skema penamaan yang disederhanakan yang diusulkan oleh Organisasi Kesehatan Dunia, P.1 telah diberi label varian Gamma, dan saat ini dianggap sebagai varian perhatian.
+
+Gamma menyebabkan infeksi yang meluas pada awal tahun 2021 di kota Manaus, ibu kota Amazonas, meskipun kota tersebut telah mengalami infeksi yang meluas pada Mei 2020, dengan sebuah penelitian yang menunjukkan seroprevalensi antibodi yang tinggi untuk SARS-CoV-2  Sebuah artikel penelitian yang diterbitkan dalam Science Journal menunjukkan bahwa orang yang terinfeksi P.1 memiliki peluang lebih besar untuk menularkan dan kematian daripada orang yang terinfeksi B.1.1.28.
+
+Varian Gamma terdiri dari dua subvarian berbeda 28-AM-1 dan 28-AM-2, yang keduanya membawa mutasi K417T, E484K, N501Y, dan keduanya berkembang secara independen satu sama lain dalam wilayah Amazonas Brasil yang sama.
+
+Gamma sangat berbeda dari varian Zeta (garis keturunan P.2) yang juga beredar kuat di Brasil. Secara khusus, Zeta hanya membawa mutasi E484K dan tidak memiliki dua mutasi lain yang menjadi perhatian, N501Y dan K417T.</string>
+
+    <string name="title4">Covid Variant Delta</string>
+    <string name="penjelasan_covid4">Varian ini ditemukan di India yang pertama kali terdeteksi pada bulan Oktober, sehingga menyebabkan gelombang kedua yang awalnya telah surut. Jenis virus COVID-19 ini lebih menular dan mampu menghindari respons imun tubuh akibat mutasi yang terjadi. Bahkan, varian ini diperkirakan 40 persen lebih menular dibandingkan jenis Alpha serta strain aslinya.
+
+Disebut-sebut juga jika vaksin kurang efektif untuk melawan varian delta ini. Bahkan, penilaian risiko terbaru menyebut jika ada tingkat ketidakpastian yang tinggi tentang efektivitas AstraZeneca terhadap strain ini meski telah mendapatkan dua dosis. Seseorang yang terinfeksi virus COVID-19 jenis delta lebih berisiko mendapatkan perawatan di rumah sakit dibandingkan jenis Alpha. Maka dari itu, strain ini disebut-sebut yang paling buruk dari semua jenis yang ada.</string>
+
+    <string name="title5">Covid Variant Epsilon</string>
+    <string name="penjelasan_covid5">Pertama kali terdeteksi di California pada Juli 2020, varian Amerika Serikat epsilon mulanya dikenal sebagai B.1420 atau CAL.20C. Varian ini terdiri atas beberapa mutasi, antara lain L452R yang khususnya menarik perhatian.
+
+Pusat Pengendalian dan Pencegahan Penyakit Amerika Serikat (CDC) awalnya menyatakan epsilon merupakan Variant of Concern alias butuh perhatian lebih daripada varian lain karena lebih mengkhawatirkan. Pernyataan itu muncul menyusul naiknya jumlah kasus positif Covid-19 secara tiba-tiba pada pertengahan 2020.
+
+Riset awal tentang varian Amerika Serikat epsilon menemukan varian ini 20 persen lebih menular ketimbang virus yang awal. Para ahli secara khusus khawatir terhadap tiga mutasi spesifik dalam protein spike yang digunakan virus untuk masuk dan menempel pada sel lain, lalu menggandakan diri.
+
+Protein spike inilah yang dibuat oleh vaksin untuk melatih sistem imun memproduksi antibodi dan melindungi sel dari infeksi. Karena itu, bila protein spike virus corona berubah karena mutasi, ada kemungkinan vaksin yang menggunakan mRNA kurang efektif mencegah infeksi selanjutnya.
+
+Sebuah studi dari University of Washington, Amerika Serikat, menemukan tiga mutasi itu bisa meredam potensi antibodi dalam aliran darah orang, baik antibodi dari vaksin maupun yang dihasilkan oleh infeksi Covid-19 sebelumnya. Para peneliti mendapati kemampuan antibodi itu untuk menetralkan varian epsilon Amerika Serikat berkurang antara 2 dan 3,5 kali.
+
+Meski demikian, varian ini kemudian tidak lagi dominan, kalah oleh kedatangan varian lain, terutama delta. CDC pun menurunkan status epsilon menjadi Variant of Interest, satu level di bawah Variant of Concern. Badan Kesehatan Dunia (WHO) juga sebelumnya memasukkan varian Amerika Serikat epsilon ke daftar Variant of Interest, tapi sudah mengeluarkannya dari daftar itu pada Juli 2021.</string>
+
+    <string name="title6">Covid Variant Zeta</string>
+    <string name="penjelasan_covid6">Varian Zeta, juga dikenal sebagai lineage P.2, adalah varian dari SARS-CoV-2, virus penyebab COVID-19. Ini pertama kali terdeteksi di negara bagian Rio de Janeiro; itu menyimpan mutasi E484K, tetapi bukan mutasi N501Y dan K417T. Ini berkembang secara independen di Rio de Janeiro tanpa berhubungan langsung dengan varian Gamma dari Manaus.
+
+Di bawah skema penamaan yang disederhanakan yang diusulkan oleh Organisasi Kesehatan Dunia, P.2 diberi label "varian Zeta", dan dianggap sebagai varian yang diminati (VOI), tetapi bukan varian yang menjadi perhatian. Gelombang kedua didahului pada November 2020 oleh peningkatan prevalensi varian Zeta di antara sekuens genetik dari negara bagian São Paulo, yang disimpan ke dalam basis data GISAID. Pada Juli 2021, Zeta tidak lagi dianggap sebagai varian yang diminati oleh WHO.</string>
+
+    <string name="title7">Covid Variant Eta</string>\
+    <string name="penjelasan_covid7">Varian Eta merupakan varian dari SARS-CoV-2, virus penyebab COVID-19. Varian Eta atau garis keturunan B.1.525, juga disebut VUI-21FEB-03 (sebelumnya VUI-202102/03) oleh Public Health England (PHE) dan sebelumnya dikenal sebagai UK1188, 21D atau 20A/S:484K, tidak membawa hal yang sama Mutasi N501Y ditemukan pada Alfa, Beta dan Gamma, tetapi membawa mutasi E484K yang sama seperti yang ditemukan pada varian Gamma, Zeta, dan Beta, dan juga membawa penghapusan H69/ΔV70 yang sama (penghapusan asam amino histidin dan valin pada posisi 69 dan 70) seperti yang ditemukan di Alpha, varian N439K (B.1.141 dan B.1.258) dan varian Y453F (Cluster 5).
+
+Eta berbeda dari semua varian lainnya dengan memiliki mutasi E484K dan mutasi F888L baru (substitusi fenilalanin (F) dengan leusin (L) dalam domain S2 dari protein lonjakan). Pada 5 Maret 2021, telah terdeteksi di 23 negara. Itu juga telah dilaporkan di Mayotte, departemen/wilayah seberang laut Prancis. Kasus pertama terdeteksi pada Desember 2020 di Inggris dan Nigeria, dan pada 15 Februari, kasus tersebut terjadi dengan frekuensi tertinggi di antara sampel di negara terakhir.Pada 24 Februari, 56 kasus ditemukan di Inggris. Denmark, yang mengurutkan semua kasus COVID-19-nya, menemukan 113 kasus varian ini dari 14 Januari hingga 21 Februari, di mana tujuh di antaranya terkait langsung dengan perjalanan luar negeri ke Nigeria.
+
+Pakar Inggris sedang mempelajarinya untuk memahami seberapa besar risikonya. Saat ini dianggap sebagai "varian yang sedang diselidiki", tetapi sambil menunggu studi lebih lanjut, ini mungkin menjadi "varian yang menjadi perhatian". Prof Ravi Gupta, dari University of Cambridge berbicara kepada BBC dan mengatakan garis keturunan B.1.525 tampaknya memiliki "mutasi signifikan" yang sudah terlihat pada beberapa varian baru lainnya, yang sebagian meyakinkan karena kemungkinan efeknya sampai batas tertentu lebih dapat diprediksi. .
+
+Di bawah skema penamaan sederhana yang diusulkan oleh Organisasi Kesehatan Dunia, garis keturunan B.1.525 telah diberi label varian Eta.</string>
+
+    <string name="title8">Covid Variant Theta</string>
+    <string name="penjelasan_covid8">Varian Theta, juga dikenal sebagai lineage P.3, adalah salah satu varian dari SARS-CoV-2, virus penyebab COVID-19. Varian ini pertama kali diidentifikasi di Filipina pada 18 Februari 2021, ketika dua mutasi yang mengkhawatirkan terdeteksi di Visayas Tengah. Itu terdeteksi di Jepang pada 12 Maret 2021, ketika seorang pelancong dari Filipina tiba di Bandara Internasional Narita di Tokyo.
+
+Ini berbeda dari yang pertama kali ditemukan di Inggris, Afrika Selatan, dan Brasil, dan dianggap menimbulkan ancaman serupa. Varian ini lebih tahan terhadap antibodi penetralisir, termasuk yang diperoleh melalui vaksinasi, seperti bagaimana varian Afrika Selatan dan Brasil tampak.
+
+Di bawah skema penamaan yang disederhanakan yang diusulkan oleh Organisasi Kesehatan Dunia, P.3 telah diberi label varian Theta, dan dianggap sebagai varian yang diminati (VOI), tetapi belum menjadi varian yang menjadi perhatian.
+
+Pada Juli 2021, Theta tidak lagi dianggap sebagai varian yang diminati oleh WHO.</string>
+
+    <string name="title9">Covid Variant Iota</string>
+    <string name="penjelasan_covid9">Varian Iota, juga dikenal sebagai garis keturunan B.1.526, adalah salah satu varian dari SARS-CoV-2, virus penyebab COVID-19. Ini pertama kali terdeteksi di New York City pada November 2020. Varian telah muncul dengan dua mutasi penting: mutasi lonjakan E484K, yang dapat membantu virus menghindari antibodi, dan mutasi S477N, yang dapat membantu virus mengikat lebih erat ke sel manusia
+
+Pada Februari 2021, itu telah menyebar dengan cepat di wilayah New York dan menyumbang sekitar satu dari empat urutan virus. Pada 11 April 2021, varian tersebut telah terdeteksi di setidaknya 48 negara bagian AS dan 18 negara
+
+Di bawah skema penamaan yang disederhanakan yang diusulkan oleh Organisasi Kesehatan Dunia, B.1.526 telah diberi label varian Iota, dan dianggap sebagai varian yang menarik (VOI), tetapi belum menjadi varian yang menjadi perhatian.</string>
+
+    <string name="title10">Covid Variant Kappa</string>
+    <string name="penjelasan_covid10">COVID-19 varian Kappa atau dikenal juga dengan kode varian B.1.617.1 adalah salah satu hasil mutasi virus Corona yang berasal dari India. Varian ini diketahui telah menyebar di berbagai negara, mulai dari Inggris, Jerman, Amerika Serikat, dan bahkan Indonesia.
+Gejala COVID-19 varian Kappa tidak jauh berbeda dengan gejala COVID-19 pada umumnya, yaitu demam, batuk, sakit kepala, nyeri otot, sesak nafas, dan anosmia atau hilangnya kemampuan mencium bau.
+Sama seperti COVID-19 varian Delta, kasus pertama COVID-19 varian Kappa juga ditemukan di India pada bulan Desember tahun 2020. Meski demikian, Badan Kesehatan Dunia (WHO) mengklasifikasikan kedua varian COVID-19 ini ke dalam kelompok yang berbeda.
+
+COVID-19 varian Delta atau B.1.617.2 telah dikategorikan sebagai salah satu varian yang perlu diwaspadai (variants of concern) bersama dengan varian Alfa, Beta, dan Gamma.
+
+Pengklasifikasian varian Delta sebagai variant of concern ditentukan berdasarkan banyaknya data yang membuktikan bahwa varian ini lebih mudah menular dan berisiko menyebabkan komplikasi dibandingkan dengan varian COVID-19 lainnya.
+
+Sementara itu, COVID-19 varian Kappa atau B.1.617.1 masih diklasifikasikan sebagai varian yang perlu diperhatikan (variants of interest) bersama dengan COVID-19 varian Lambda, Eta, dan Iota.
+
+Hal ini karena belum adanya data atau penelitian yang dapat memastikan tingkat penularan, tingkat keparahan, maupun jenis gejala yang ditimbulkan oleh COVID-19 varian Kappa.
+
+Meski demikian, hal ini bukan berarti COVID-19 varian Kappa akan terus dikategorikan sebagai variant of interest. COVID-19 varian Kappa bisa saja diklasifikasikan sebagai variant of concern di kemudian hari jika terbukti lebih berbahaya dibandingkan varian COVID-19 lainnya.</string>
+
+<!--    Prevention Strings  -->
+    <string name="title_preventions1">Mencuci tangan dengan benar</string>
+    <string name="penjelasan_preventions1">Mencuci tangan dengan benar adalah cara paling sederhana namun efektif untuk mencegah penyebaran virus 2019-nCoV. Cucilah tangan dengan air mengalir dan sabun, setidaknya selama 20 detik. Pastikan seluruh bagian tangan tercuci hingga bersih, termasuk punggung tangan, pergelangan tangan, sela-sela jari, dan kuku. Setelah itu, keringkan tangan menggunakan tisu, handuk bersih, atau mesin pengering tangan.
+
+Jika Anda adalah pekerja komuter yang berada di dalam transportasi umum, akan sulit untuk menemukan air dan sabun. Anda bisa membersihkan tangan dengan hand sanitizer. Gunakan produk hand sanitizer dengan kandungan alkohol minimal 60% agar lebih efektif membasmi kuman.
+
+Cucilah tangan secara teratur, terutama sebelum dan setelah makan, setelah menggunakan toilet, setelah menyentuh hewan, membuang sampah, serta setelah batuk atau bersin. Cuci tangan juga penting dilakukan sebelum menyusui bayi atau memerah ASI.</string>
+
+    <string name="title_preventions2">Menggunakan masker</string>
+    <string name="penjelasan_preventions2">Banyak yang menggunakan masker kain untuk mencegah infeksi virus Corona, padahal masker tersebut belum tentu efektif. Secara umum, ada dua tipe masker yang bisa Anda digunakan untuk mencegah penularan virus Corona, yaitu masker bedah dan masker N95.
+
+Masker bedah atau surgical mask merupakan masker sekali pakai yang umum digunakan. Masker ini mudah ditemukan, harganya terjangkau, dan nyaman dipakai, sehingga banyak orang yang menggunakan masker ini saat beraktivitas sehari-hari.
+
+Cara pakai masker bedah yang benar adalah sisi berwarna pada masker harus menghadap ke luar, sementara sisi dalamnya yang berwarna putih menghadap wajah dan menutupi dagu, hidung, dan mulut. Sisi berwarna putih terbuat dari material yang dapat menyerap kotoran dan menyaring kuman dari udara.
+
+Meski tidak sepenuhnya efektif mencegah paparan kuman, namun penggunaan masker ini tetap bisa menurunkan risiko penyebaran penyakit infeksi, termasuk infeksi virus Corona. Penggunaan masker lebih disarankan bagi orang yang sedang sakit untuk mencegah penyebaran virus dan kuman, ketimbang pada orang yang sehat.
+
+Sedangkan masker N95 adalah jenis masker yang digunakan sebagai salah satu alat pelindung diri atau APD untuk petugas medis yang merawat pasien COVID-19.
+
+Ketika melepaskan masker dari wajah, baik masker bedah maupun masker N95, hindari menyentuh bagian depan masker, sebab bagian tersebut penuh dengan kuman yang menempel. Setelah melepas masker, cucilah tangan dengan sabun atau hand sanitizer, agar tangan bersih dari kuman yang menempel.</string>
+
+    <string name="title_preventions3">Menjaga daya tahan tubuh</string>
+    <string name="penjelasan_preventions3">Daya tahan tubuh yang kuat dapat mencegah munculnya berbagai macam penyakit. Untuk menjaga dan meningkatkan daya tahan tubuh, Anda disarankan untuk mengonsumsi makanan sehat, seperti sayuran dan buah-buahan, dan makanan berprotein, seperti telur, ikan, dan daging tanpa lemak.
+
+Jika bosan dengan makanan yang dimasak sendiri, Anda bisa membeli makanan siap saji atau makanan di restoran melalui layanan pesan antar, namun pastikan makanan tersebut bersih dan sehat. Bila perlu, Anda juga menambah konsumsi suplemen sesuai anjuran dokter.
+
+Selain itu, rutin berolahraga, tidur yang cukup, tidak merokok, dan tidak mengonsumsi minuman beralkohol juga bisa meningkatkan daya tahan tubuh agar terhindar dari penularan virus Corona.
+
+Beberapa informasi menyebutkan bahwa berjemur di bawah sinar matahari juga dapat mencegah infeksi virus Corona. Sayangnya hal ini masih perlu diteliti lebih lanjut.</string>
+
+    <string name="title_preventions4">Menerapkan physical distancing dan isolasi mandiri</string>
+    <string name="penjelasan_preventions4">Pembatasan fisik atau physical distancing adalah salah satu langkah penting untuk memutus mata rantai penyebaran virus Corona. Hal ini dapat dilakukan dengan cara tidak bepergian keluar rumah, kecuali untuk keperluan yang mendesak atau darurat, seperti berbelanja bahan makanan atau berobat ketika sakit.
+
+Pembatasan fisik juga dilakukan dengan cara menjaga jarak minimal 1 meter dengan orang lain dan selalu menggunakan masker, terutama saat beraktivitas di tempat umum atau keramaian.
+
+Selama menjalani physical distancing, Anda juga perlu menghindari kontak dengan orang yang sedang sakit, diduga terinfeksi virus Corona, atau sudah dinyatakan positif COVID-19.
+
+Jika Anda memiliki salah satu gejala COVID-19 yang bersifat ringan, memiliki riwayat perjalanan atau tinggal di daerah terjangkit virus Corona dalam 14 hari terakhir, atau pernah kontak dengan orang yang dinyatakan positif COVID-19, Anda dianjurkan untuk melakukan isolasi mandiri.
+
+Selain itu, isolasi mandiri juga dianjurkan untuk dilakukan oleh orang yang berisiko tinggi terinfeksi virus Corona, seperti lansia atau orang yang memiliki penyakit penyerta, misalnya hipertensi, diabetes, atau daya tahan tubuh yang lemah.</string>
+
+    <string name="title_preventions5">Membersihkan rumah dan melakukan disinfeksi secara rutin</string>
+    <string name="penjelasan_preventions5">Selain kebersihan diri, menjaga kebersihan rumah juga sangat penting dilakukan selama pandemi COVID-19 berlangsung. Hal ini dikarenakan virus Corona terbukti dapat bertahan hidup selama berjam-jam dan bahkan berhari-hari di permukaan suatu benda.
+
+Oleh karena itu, rumah harus rutin dibersihkan dan dilakukan disinfeksi secara menyeluruh, termasuk perabotan dan peralatan rumah yang sering disentuh, seperti gagang pintu, remote televisi, kran air, dan permukaan meja.
+
+Saat membersihkan atau melakukan disinfeksi, Anda perlu menggunakan sarung tangan dan masker, serta mencuci tangan dengan air bersih dan sabun setelah selesai membersihkan rumah. Hal ini dilakukan untuk mencegah penularan virus Corona yang mungkin saja terjadi.</string>
+
 </resources>

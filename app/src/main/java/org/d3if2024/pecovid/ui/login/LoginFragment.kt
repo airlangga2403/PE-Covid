@@ -37,7 +37,8 @@ class LoginFragment : Fragment() {
         auth = FirebaseAuth.getInstance()
 //        Log.d("Display Name", FirebaseAuth.getInstance().currentUser?.displayName.toString())
         binding.nextBtn.setOnClickListener {
-            login()
+//            login()
+            findNavController().navigate(R.id.action_loginActivity_to_homeFragment)
         }
         binding.textNewMember.setOnClickListener {
             findNavController().navigate(R.id.action_loginActivity_to_signUpFragment)

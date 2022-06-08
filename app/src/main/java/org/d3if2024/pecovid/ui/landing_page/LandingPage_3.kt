@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import org.d3if2024.pecovid.R
 import org.d3if2024.pecovid.databinding.FragmentLandingPage3Binding
@@ -29,6 +30,7 @@ class LandingPage_3 : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.nextBtn.setOnClickListener{
             findNavController().navigate(R.id.action_landingPage_3_to_loginActivity)
+//            findNavController().navigate(R)
         }
     }
 }
