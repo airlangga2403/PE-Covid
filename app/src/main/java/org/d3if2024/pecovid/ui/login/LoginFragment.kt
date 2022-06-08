@@ -1,5 +1,6 @@
 package org.d3if2024.pecovid.ui.login
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.util.Patterns
@@ -10,6 +11,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.firebase.auth.FirebaseAuth
+import org.d3if2024.pecovid.HomeActivity
 import org.d3if2024.pecovid.R
 import org.d3if2024.pecovid.databinding.FragmentLoginBinding
 import org.d3if2024.pecovid.helper.SharedPreference
@@ -76,7 +78,8 @@ class LoginFragment : Fragment() {
                 if (task.isSuccessful) {
                     Toast.makeText(requireActivity(), "Selamat Datang $email ", Toast.LENGTH_SHORT)
                         .show()
-                    findNavController().navigate(R.id.action_loginActivity_to_homeFragment)
+                    val homeActivity = Intent(context, HomeActivity::class.java)
+                    startActivity(homeActivity)
                     sp.setStatusSignin(true)
                 } else {
                     Toast.makeText(

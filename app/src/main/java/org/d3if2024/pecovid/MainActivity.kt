@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         sp = SharedPreference(this)
 
         if (sp.getStatusSignin() == true){
-            val intent = Intent(this, HomeFragment::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
 //            startActivity(Intent(this, HomeFragment::class.java))
 

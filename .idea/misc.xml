@@ -42,6 +42,9 @@
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/recovery_activity.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/variations_activity.xml" value="0.19375" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/menu/menu.xml" value="0.259375" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2578125" />
       </map>
     </option>
   </component>
