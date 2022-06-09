@@ -12,7 +12,11 @@
         tools:layout="@layout/fragment_landing_page_1">
         <action
             android:id="@+id/action_landingPage_1_to_landingPage_2"
-            app:destination="@id/landingPage_2" />
+            app:destination="@id/landingPage_2"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
     </fragment>
     <fragment
         android:id="@+id/landingPage_2"
@@ -21,7 +25,11 @@
         tools:layout="@layout/fragment_landing_page_2">
         <action
             android:id="@+id/action_landingPage_2_to_landingPage_3"
-            app:destination="@id/landingPage_3" />
+            app:destination="@id/landingPage_3"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
     </fragment>
     <fragment
         android:id="@+id/landingPage_3"
@@ -30,7 +38,11 @@
         tools:layout="@layout/fragment_landing_page_3">
         <action
             android:id="@+id/action_landingPage_3_to_loginActivity"
-            app:destination="@id/loginActivity" />
+            app:destination="@id/loginActivity"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -39,10 +51,18 @@
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_userCenterFragment"
-            app:destination="@id/userCenterFragment" />
+            app:destination="@id/userCenterFragment"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
         <action
             android:id="@+id/action_homeFragment_to_settingsFragment"
-            app:destination="@id/settingsFragment" />
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
@@ -51,10 +71,18 @@
         tools:layout="@layout/fragment_settings">
         <action
             android:id="@+id/action_settingsFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
         <action
             android:id="@+id/action_settingsFragment_to_userCenterFragment"
-            app:destination="@id/userCenterFragment" />
+            app:destination="@id/userCenterFragment"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
         <action
             android:id="@+id/action_settingsFragment_to_loginActivity"
             app:destination="@id/loginActivity"
@@ -69,10 +97,18 @@
         tools:layout="@layout/fragment_user_center">
         <action
             android:id="@+id/action_userCenterFragment_to_settingsFragment"
-            app:destination="@id/settingsFragment" />
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
         <action
             android:id="@+id/action_userCenterFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
     </fragment>
     <fragment
         android:id="@+id/loginActivity"
@@ -87,10 +123,18 @@
             app:popUpToInclusive="true"/>
         <action
             android:id="@+id/action_loginActivity_to_signUpFragment"
-            app:destination="@id/signUpFragment" />
+            app:destination="@id/signUpFragment"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
         <action
             android:id="@+id/action_loginActivity_to_resetPassword"
-            app:destination="@id/resetPassword" />
+            app:destination="@id/resetPassword"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
@@ -99,7 +143,11 @@
         tools:layout="@layout/fragment_sign_up">
         <action
             android:id="@+id/action_signUpFragment_to_loginActivity"
-            app:destination="@id/loginActivity" />
+            app:destination="@id/loginActivity"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
     </fragment>
     <fragment
         android:id="@+id/resetPassword"
@@ -108,7 +156,11 @@
         tools:layout="@layout/fragment_reset_password">
         <action
             android:id="@+id/action_resetPassword_to_loginActivity"
-            app:destination="@id/loginActivity" />
+            app:destination="@id/loginActivity"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
     </fragment>
     <fragment
         android:id="@+id/checkerFragment"
@@ -117,9 +169,17 @@
         tools:layout="@layout/fragment_checker" >
         <action
             android:id="@+id/action_checkerFragment_to_landingPage_1"
-            app:destination="@id/landingPage_1" />
+            app:destination="@id/landingPage_1"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
         <action
             android:id="@+id/action_checkerFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/pop_exit_anim"/>
     </fragment>
 </navigation>
