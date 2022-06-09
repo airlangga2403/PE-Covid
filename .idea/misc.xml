@@ -19,6 +19,7 @@
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/activity_screen_slide.xml" value="0.25769927536231885" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/activity_splash_screen.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/definition_activity.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/fragment_landing_page_1.xml" value="0.2" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/fragment_landing_page_2.xml" value="0.2" />
@@ -33,6 +34,7 @@
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/fragment_variants_page_1.xml" value="0.25" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/fragment_variants_page_2.xml" value="0.176" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/fragment_variations.xml" value="0.25769927536231885" />
+        <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/item_definition.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/item_page.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/item_preventions_page.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Zeeus/AndroidStudioProjects/PECOVID/app/src/main/res/layout/item_recovery_page.xml" value="0.25833333333333336" />

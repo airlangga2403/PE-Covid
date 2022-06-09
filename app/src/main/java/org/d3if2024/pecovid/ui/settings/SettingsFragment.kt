@@ -13,11 +13,14 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import org.d3if2024.pecovid.R
 import org.d3if2024.pecovid.databinding.FragmentSettingsBinding
+import org.d3if2024.pecovid.helper.SharedPreference
 
 
 class SettingsFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private lateinit var binding: FragmentSettingsBinding
+    lateinit var sp: SharedPreference
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -33,6 +36,7 @@ class SettingsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        sp = SharedPreference(requireActivity())
         binding.switchDarkMode.setOnCheckedChangeListener { buttonView, isChecked ->
             if (isChecked) {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
@@ -42,6 +46,7 @@ class SettingsFragment : Fragment() {
         }
         binding.buttonLogout.setOnClickListener {
             Firebase.auth.signOut()
+            sp.setStatusSignin(false)
             findNavController().navigate(R.id.action_settingsFragment_to_loginActivity)
             Toast.makeText(requireActivity(), "Akun Berhasil Log Out", Toast.LENGTH_SHORT)
                 .show()
