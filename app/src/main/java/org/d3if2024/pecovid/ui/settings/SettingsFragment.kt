@@ -18,7 +18,6 @@ import org.d3if2024.pecovid.databinding.FragmentSettingsBinding
 class SettingsFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private lateinit var binding: FragmentSettingsBinding
-    private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }

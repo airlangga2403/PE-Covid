@@ -186,7 +186,7 @@ Saat membersihkan atau melakukan disinfeksi, Anda perlu menggunakan sarung tanga
     <string name="penjelasan_recovery_detail2">•	Pemberian infus cairan agar tetap terhidrasi
 \n\n•	Pemasangan ventilator atau alat bantu napas
 \n\n•	Pemberian obat, seperti pengencer darah, antiperadangan, antiinterleukin-6 (IL-6), remdesivir, atau favipiravir</string>
-<!--    Strings email_address-->
+    <!--    Strings email_address-->
     <string name="email_address"><u>Email Address</u></string>
     <string name="email_address_user"><u>Email Address</u></string>
 </resources>
