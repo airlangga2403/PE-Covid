@@ -49,12 +49,12 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun loadFragment(fragment: Fragment){
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.nav_host_fragment, fragment)
-        transaction.disallowAddToBackStack()
-        transaction.commit()
-    }
+//    private fun loadFragment(fragment: Fragment){
+//        val transaction = supportFragmentManager.beginTransaction()
+//        transaction.replace(R.id.nav_host_fragment, fragment)
+//        transaction.disallowAddToBackStack()
+//        transaction.commit()
+//    }
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp() || super.onSupportNavigateUp()
     }
